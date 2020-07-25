@@ -4,7 +4,7 @@ import urllib
 import json
 from shapely.geometry import Point
 
-apiKey = "5b3ce3597851110001cf6248efeb7e35b81142ed8974c609ac1cedcf"
+apiKey = "<Your-API-Key>"
 
 health_specialists_countries = {
     'Venezuela': ['medical oncology', 'pediatric oncology', 'oncologic surgery', 'general surgery', 'gastroenterology', 'urology', 'oncological radiotherapy'],
