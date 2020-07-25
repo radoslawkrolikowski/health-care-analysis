@@ -16,7 +16,7 @@ The second part of the project encompasses the extraction with `Scrapy spiders` 
 
 ### Table of contents
 
-* [Download and prepare data](https://nbviewer.jupyter.org/github/radoslawkrolikowski/sentiment-analysis-pytorch/blob/master/1_data_processing.ipynb)
+* [Download and prepare data](https://nbviewer.jupyter.org/github/radoslawkrolikowski/health-care-analysis/blob/master/Download_and_prepare_data.ipynb)
  	
 	In this notebook, we are going to download and prepare the data that is required to conduct the analysis of the health facilities accessibility. The data includes the following:
 
@@ -25,18 +25,18 @@ The second part of the project encompasses the extraction with `Scrapy spiders` 
     - Distribution of the population as the spatial raster dataset from <i>European Commission Global Human Settlement GHS-POP</i> dataset
 
 
-* [Openrouteservice health facilities access isolines](https://nbviewer.jupyter.org/github/radoslawkrolikowski/sentiment-analysis-pytorch/blob/master/2_vocabulary.ipynb)
+* [Openrouteservice health facilities access isolines](https://nbviewer.jupyter.org/github/radoslawkrolikowski/health-care-analysis/blob/master/Health_facilities_ORS_isolines_map.ipynb)
 	
 	In this notebook we will use the <i>Openrouteservice API</i> to compute the isolines for health facilities, we will also create the following maps:
 	- Map of health care facilities
 	- Map of health care access isolines
 	- Choropleth of the population with health care access
 
- * [OSMNX health facilities access isolines](https://nbviewer.jupyter.org/github/radoslawkrolikowski/sentiment-analysis-pytorch/blob/master/2_vocabulary.ipynb)
+ * [OSMNX health facilities access isolines](https://nbviewer.jupyter.org/github/radoslawkrolikowski/health-care-analysis/blob/master/Health_facilities_OSMNX_isolines_map.ipynb)
 
 	This notebook covers the use of the `OSMNX` library to compute the isolines for health facilities, but also we will create the same types of maps as in the previous notebook.
 
- * [Health specialists access isolines](https://nbviewer.jupyter.org/github/radoslawkrolikowski/sentiment-analysis-pytorch/blob/master/2_vocabulary.ipynb)
+ * [Health specialists access isolines](https://nbviewer.jupyter.org/github/radoslawkrolikowski/health-care-analysis/blob/master/Health_specialists_access.ipynb)
 
 	In this notebook we are going to obtain the data regarding the health specialists. Depending on the country of interest the process of data retrieving will be different (for example using `Scrapy spiders` to scrap the data from the website)
 
@@ -45,7 +45,7 @@ The second part of the project encompasses the extraction with `Scrapy spiders` 
 	- Map of health specialists access isolines
 	- Choropleth of the population with access to health specialists
 
- * [Utilities](https://nbviewer.jupyter.org/github/radoslawkrolikowski/sentiment-analysis-pytorch/blob/master/2_vocabulary.ipynb)
+ * [Utilities](https://github.com/radoslawkrolikowski/health-care-analysis/blob/master/utilities.py)
 
 	Python file that includes the following:
 	- Definitions of the `ORS` and `photon` geocoders
@@ -53,11 +53,11 @@ The second part of the project encompasses the extraction with `Scrapy spiders` 
 	- Your <i>Openrouteservice API</i> key.
 	- <i>ISO 3166 alpha-3</i> country codes
 
- * [ven_health_spec_spider](https://nbviewer.jupyter.org/github/radoslawkrolikowski/sentiment-analysis-pytorch/blob/master/2_vocabulary.ipynb)
+ * [ven_health_spec_spider](https://github.com/radoslawkrolikowski/health-care-analysis/blob/master/spiders/ven_health_spec_spider.py)
 
 	Implementation of the `Scrapy Spider` that extracts the health specialists data for Venezuela from <http://oncologia.org.ve/site/estructuras/>
 
- * [nam_health_spec_spider](https://nbviewer.jupyter.org/github/radoslawkrolikowski/sentiment-analysis-pytorch/blob/master/2_vocabulary.ipynb)
+ * [nam_health_spec_spider](https://github.com/radoslawkrolikowski/health-care-analysis/blob/master/spiders/nam_health_spec_spider.py)
 
 	Implementation of the `Scrapy Spider` that extracts the health specialists data for Namibia from <http://www.methealth.com.na/doctor_types.php>
 
@@ -65,7 +65,7 @@ The second part of the project encompasses the extraction with `Scrapy spiders` 
 
 You can find the maps in HTML format for Venezuela in `Venezuela` directory.
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![map gif](https://github.com/radoslawkrolikowski/health-care-analysis/blob/master/assets/Map.gif)
 
 ### Dataset
 
