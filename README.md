@@ -127,6 +127,7 @@ Data is going to be stored in a folder structure according to the following temp
 
 	To be able to convert shapefiles to OSM format we have to install the `ogr2osm`.
 	- `git clone --recursive https://github.com/pnorman/ogr2osm`
+	
 	To update the repository:
 	- `cd ogr2osm`
 	- `git pull`
