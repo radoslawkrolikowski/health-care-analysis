@@ -1,6 +1,6 @@
 Fiona==1.8.13.post1
 geopandas==0.7.0
-Scrapy==1.6.0
+Scrapy==1.8.1
 branca==0.4.1
 geopy==1.22.0
 numpy==1.17.2
