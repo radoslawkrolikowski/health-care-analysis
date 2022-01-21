@@ -3,7 +3,7 @@ geopandas==0.7.0
 Scrapy==1.6.0
 branca==0.4.1
 geopy==1.22.0
-numpy==1.17.2
+numpy==1.21.0
 requests==2.22.0
 folium==0.11.0
 ipywidgets==7.5.1
